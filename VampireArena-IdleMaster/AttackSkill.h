@@ -19,4 +19,10 @@ public:
 public:
 	AttackSkill() = default;
 	AttackSkill(const string& _name, const string& _description);
+
+private:
+	void ApplySkillEffect()
+	{
+		//TODO
+	}
 };
