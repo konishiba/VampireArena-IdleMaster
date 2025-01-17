@@ -30,12 +30,6 @@
     <Filter Include="Script\Resource Files\Logger">
       <UniqueIdentifier>{93d8c182-a1ef-4c39-8dd9-06bd13d0d1cd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Script\Resource Files\Logger\CustomException">
-      <UniqueIdentifier>{f2b68d0c-338f-4887-8299-f08e7e4b7c8c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Script\Resource Files\Logger\CustomException\Color">
-      <UniqueIdentifier>{be445c7a-fa5d-415a-9a40-e5b2a5fa3500}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Script\Source Files">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
@@ -52,13 +46,22 @@
     <Filter Include="Script\Source Files\Entities\Entity\Ennemy">
       <UniqueIdentifier>{b3cbfd55-eb1b-4254-ad37-d250a14625eb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Script\Resource Files\Logger\CustomException">
+      <UniqueIdentifier>{f2b68d0c-338f-4887-8299-f08e7e4b7c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Resource Files\Color">
+      <UniqueIdentifier>{be445c7a-fa5d-415a-9a40-e5b2a5fa3500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Attack">
+      <UniqueIdentifier>{c94488b0-1494-49cd-9a12-fa186ff6886a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Script\Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Color.cpp">
-      <Filter>Script\Resource Files\Logger\CustomException\Color</Filter>
+      <Filter>Script\Resource Files\Color</Filter>
     </ClCompile>
     <ClCompile Include="CustomException.cpp">
       <Filter>Script\Resource Files\Logger\CustomException</Filter>
@@ -81,10 +84,13 @@
     <ClCompile Include="Ennemy.cpp">
       <Filter>Script\Source Files\Entities\Entity\Ennemy</Filter>
     </ClCompile>
+    <ClCompile Include="AttackSkill.cpp">
+      <Filter>Script\Source Files\Attack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Color.h">
-      <Filter>Script\Resource Files\Logger\CustomException\Color</Filter>
+      <Filter>Script\Resource Files\Color</Filter>
     </ClInclude>
     <ClInclude Include="CustomException.h">
       <Filter>Script\Resource Files\Logger\CustomException</Filter>
@@ -115,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="Ennemy.h">
       <Filter>Script\Source Files\Entities\Entity\Ennemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSkill.h">
+      <Filter>Script\Source Files\Attack</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
 #pragma once
-#include "CoreMinimal.h"
+#include "AttackSkill.h"
 
 class Entity
 {
@@ -9,8 +9,8 @@ class Entity
 	bool isFrenzied;
 	/*Weapon* currentWeapon;
 	Armor* currentArmor;
-	Relic* currentRelic;
-	AttackSkill* attackSkill;*/
+	Relic* currentRelic;*/
+	AttackSkill* attackSkill;
 
 public:
 	FORCEINLINE string GetName() const

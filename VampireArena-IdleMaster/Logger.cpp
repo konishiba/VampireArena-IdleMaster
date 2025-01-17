@@ -1,5 +1,5 @@
 #include "Logger.h"
-#include "TimerManager.h"
+//#include "TimerManager.h"
 
 string VerbosityData::RetrieveFullText(const bool _useColor, const bool _useTime) const
 {

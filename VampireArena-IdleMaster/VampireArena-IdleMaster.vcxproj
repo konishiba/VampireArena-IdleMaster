@@ -138,6 +138,7 @@ xcopy /y /d "..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"</Command>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AttackSkill.cpp" />
     <ClCompile Include="Color.cpp" />
     <ClCompile Include="CustomException.cpp" />
     <ClCompile Include="Ennemy.cpp" />
@@ -149,6 +150,7 @@ xcopy /y /d "..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"</Command>
     <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AttackSkill.h" />
     <ClInclude Include="Color.h" />
     <ClInclude Include="CoreMinimal.h" />
     <ClInclude Include="CustomException.h" />
