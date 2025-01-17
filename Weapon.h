@@ -6,12 +6,12 @@ class Weapon : public Equipable
 
 public :
 
-	inline int GetReach() const
+	inline double GetReach() const
 	{
 		return weight;
 	}
 
-	inline int GetAttackValue() const
+	inline double GetAttackValue() const
 	{
 		return ((equipableStat * weight) * (1 + (rarity * 0.1)) * 0.9;
 	}

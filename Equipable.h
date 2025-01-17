@@ -13,7 +13,7 @@ class Equipable : public Item
 protected :
 	bool isSaboted;
 	int equipableStat;
-	int weight;
+	double weight;
 	ElementType element;
 
 public :
