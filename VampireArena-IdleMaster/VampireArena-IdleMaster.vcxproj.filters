@@ -49,6 +49,24 @@
     <Filter Include="Script\Source Files\Actor\TextActor">
       <UniqueIdentifier>{d16c5924-7d08-4ee7-8aa8-6420cb3a99dd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Script\Source Files\Manager">
+      <UniqueIdentifier>{1a15a2ad-2861-4c75-adb8-77c75cca923b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Manager\TextureManager">
+      <UniqueIdentifier>{ca78121c-3a49-42aa-8fca-e15acce81ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Manager\ActorManager">
+      <UniqueIdentifier>{46d8ff34-6062-49d0-b14b-1874ecfc4c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Object">
+      <UniqueIdentifier>{4e718387-ea54-4b65-b110-4dff0d4fd35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Core">
+      <UniqueIdentifier>{e4e3fa37-d3b5-4d1f-a482-a4feca0b9175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Component">
+      <UniqueIdentifier>{e9c2beab-e2f9-4197-9ae8-33650faf2a68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -79,6 +97,18 @@
       <Filter>Script\Source Files\Actor\TextActor</Filter>
     </ClCompile>
     <ClCompile Include="TextureManager.cpp">
+      <Filter>Script\Source Files\Manager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Script\Source Files\Manager\ActorManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Script\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Script\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
       <Filter>Script\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -117,7 +147,19 @@
       <Filter>Script\Source Files\Actor\ShapeActor</Filter>
     </ClInclude>
     <ClInclude Include="TextureManager.h">
-      <Filter>Script\Source Files</Filter>
+      <Filter>Script\Source Files\Manager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Script\Source Files\Manager\ActorManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Script\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Script\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Script\Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

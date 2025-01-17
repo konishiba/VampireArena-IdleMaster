@@ -4,3 +4,4 @@
 #include "Utilities.h"
 
 #define M_TEXTURE TextureManager::GetInstance()
+#define M_OBJECT ObjectManager::GetInstance()

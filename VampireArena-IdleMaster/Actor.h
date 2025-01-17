@@ -1,5 +1,6 @@
 #pragma once
 #include "CoreMinimal.h"
+#include "Object.h"
 
 struct TransformData
 {
@@ -10,7 +11,7 @@ struct TransformData
 };
 
 
-class Actor
+class Actor : public Object
 {
 	TransformData transform;
 
@@ -75,6 +76,12 @@ public:
 	{
 		transform.scale += _factor;
 	}
+public:
+	virtual void BeginPlay() {}
+	virtual void Tick(const float _deltaTime) {}
+	virtual void BeginDestroy() {}
+
+
 public:
 	virtual ~Actor() {};
 
