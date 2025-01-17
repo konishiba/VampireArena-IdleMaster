@@ -12,7 +12,7 @@ public :
 
 	FORCEINLINE double GetResistance() const
 	{
-		return ((equipableStat / 2) * weight) * (rarity * 0.1);
+		return ((equipableStat / 2) * weight) * (static_cast<int>(rarity) * 0.1);
 	}
 
 public:

@@ -13,7 +13,7 @@ public :
 
 	FORCEINLINE double GetAttackValue() const
 	{
-		return ((equipableStat * weight) * (1 + (rarity * 0.1)) * 0.9);
+		return ((equipableStat * weight) * (1 + (static_cast<int>(rarity) * 0.1)) * 0.9);
 	}
 
 public:
