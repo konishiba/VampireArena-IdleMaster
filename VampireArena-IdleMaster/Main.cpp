@@ -1,8 +1,4 @@
-#include <iostream>
-#include <SFML/Graphics.hpp>
-
-using namespace std;
-using namespace sf;
+#include "CoreMinimal.h"
 
 int main()
 {
