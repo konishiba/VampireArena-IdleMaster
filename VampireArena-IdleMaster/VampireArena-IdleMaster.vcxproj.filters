@@ -82,6 +82,9 @@
     <Filter Include="Script\Source Files\Item\Relic">
       <UniqueIdentifier>{4de87732-c4b4-48cd-a517-6ed490a3c617}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Script\Source Files\Manager\TextureManager">
+      <UniqueIdentifier>{ccae565e-f86d-4797-ada7-8ae31085eece}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -137,6 +140,9 @@
     </ClCompile>
     <ClCompile Include="Weapon.cpp">
       <Filter>Script\Source Files\Item\Equipable\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Script\Source Files\Manager\TextureManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -199,6 +205,9 @@
     </ClInclude>
     <ClInclude Include="Weapon.h">
       <Filter>Script\Source Files\Item\Equipable\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Script\Source Files\Manager\TextureManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

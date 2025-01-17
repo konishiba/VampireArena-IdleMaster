@@ -5,15 +5,14 @@ class Armor : public Equipable
 {
 
 public :
-	
-	FORCEINLINE int GetWeight() const
+	FORCEINLINE double GetWeight() const
 	{
 		return weight;
 	}
 
-	FORCEINLINE int GetResistance() const
+	FORCEINLINE double GetResistance() const
 	{
-		return (equipableStat + weight) * (rarity * 0.1);
+		return ((equipableStat / 2) * weight) * (rarity * 0.1);
 	}
 
 public:

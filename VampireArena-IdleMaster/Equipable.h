@@ -13,7 +13,7 @@ class Equipable : public Item
 protected :
 	bool isSaboted;
 	int equipableStat;
-	int weight;
+	double weight;
 	ElementType element;
 
 public :
@@ -25,6 +25,6 @@ public :
 public:
 	Equipable() = default;
 	Equipable(const string _name, const string& _description, const int _upgradePrice, const RarityType _rarity,
-		const int equipableStat, const int _waight, const ElementType& _element, const bool _isSaboted = false);
+		const int equipableStat, const double _weight, const ElementType& _element, const bool _isSaboted = false);
 };
 

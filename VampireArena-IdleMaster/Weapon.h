@@ -6,14 +6,14 @@ class Weapon : public Equipable
 
 public :
 
-	FORCEINLINE int GetReach() const
+	FORCEINLINE double GetReach() const
 	{
 		return weight;
 	}
 
-	FORCEINLINE int GetAttackValue() const
+	FORCEINLINE double GetAttackValue() const
 	{
-		return (equipableStat + weight) * rarity;
+		return ((equipableStat * weight) * (1 + (rarity * 0.1)) * 0.9);
 	}
 
 public:

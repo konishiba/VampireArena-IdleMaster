@@ -7,12 +7,12 @@ class ShapeActor : public Actor
 	Texture texture;
 
 public:
-	Texture GetTexture() const
+	FORCEINLINE Texture& GetTexture()
 	{
 		return texture;
 	}
 
-	Drawable* GetDrawable() const
+	FORCEINLINE virtual Shape* GetDrawable() const
 	{
 		return shape;
 	}
@@ -70,4 +70,3 @@ public:
 
 	~ShapeActor();
 };
-
