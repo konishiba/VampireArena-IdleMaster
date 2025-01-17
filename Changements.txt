@@ -15,7 +15,7 @@ Weapon :
 - Reach correspond à la Weight dans la Class Weapon (plus l'arme est lourde, plus il y a de matières, donc plus elle est longue...).
 - Weight est un modificateur positif de dégâts et négatif de vitesse. (Plus l'arme est lourde, plus elle inflige de dégâts, mais plus il est difficile de la manier.)
 - Weight(Reach), fonctionne comme l'ancien Reach. Si la Weight(Reach) de l'arme est plus élevée que celle de l'adversaire, attaque en premier pour le premier tour uniquement. (Le temps que l'ennemi atteigne le personnage.)
-- Le GetAttackValue retourne la valeur d'attaque(equipableStat) multiplié à l'indice de Weight, puis multiplié positivement par la rareté(rarity).
+- Le GetAttackValue retourne la valeur d'attaque(equipableStat) multiplié à l'indice de Weight, puis multiplié positivement par la rareté(1 + (rarity * 0.1)), avant d'être finalement multiplié négativement par 0.9 pour éviter de dépasser les 100 points de dégâts (pour éviter les OneShots).
 
 Armor :
 - Le GetResistance retourne la valeur de résistance(equipableStat) divisée par deux,  multiplié par la Weight, puis multiplié négativement par la rareté(rarity * 0.1).

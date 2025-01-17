@@ -13,7 +13,7 @@ public :
 
 	inline int GetAttackValue() const
 	{
-		return (equipableStat * weight) * rarity;
+		return ((equipableStat * weight) * (1 + (rarity * 0.1)) * 0.9;
 	}
 };
 
