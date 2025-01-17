@@ -55,6 +55,36 @@
     <Filter Include="Script\Source Files\Attack">
       <UniqueIdentifier>{c94488b0-1494-49cd-9a12-fa186ff6886a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Script\Source Files\Manager">
+      <UniqueIdentifier>{a92175c9-afc5-47f9-9572-695530dd3754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Manager\Actor">
+      <UniqueIdentifier>{8b72270b-7640-45ea-babb-d633aef7ec8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Manager\Actor\ShapeActor">
+      <UniqueIdentifier>{42b2dbc3-c10e-4fe4-8713-6b1574d5bf52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Manager\Actor\TextActor">
+      <UniqueIdentifier>{cde32765-16e5-4eeb-8b02-6a1d4c9ffc9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Item">
+      <UniqueIdentifier>{d094a1eb-6311-4a37-829b-794a54fbedc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Item\Equipable">
+      <UniqueIdentifier>{25931e62-6cfa-42c9-8a8d-e4956dae6e26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Item\Equipable\Armor">
+      <UniqueIdentifier>{927f0d62-9c04-43e4-9119-51e190976483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Item\Equipable\Weapon">
+      <UniqueIdentifier>{372c1262-6430-4db7-a8ec-d655c39a7871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Item\Relic">
+      <UniqueIdentifier>{4de87732-c4b4-48cd-a517-6ed490a3c617}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Source Files\Manager\TextureManager">
+      <UniqueIdentifier>{ccae565e-f86d-4797-ada7-8ae31085eece}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -86,6 +116,33 @@
     </ClCompile>
     <ClCompile Include="AttackSkill.cpp">
       <Filter>Script\Source Files\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Script\Source Files\Manager\Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapeActor.cpp">
+      <Filter>Script\Source Files\Manager\Actor\ShapeActor</Filter>
+    </ClCompile>
+    <ClCompile Include="TextActor.cpp">
+      <Filter>Script\Source Files\Manager\Actor\TextActor</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Script\Source Files\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Armor.cpp">
+      <Filter>Script\Source Files\Item\Equipable\Armor</Filter>
+    </ClCompile>
+    <ClCompile Include="Equipable.cpp">
+      <Filter>Script\Source Files\Item\Equipable</Filter>
+    </ClCompile>
+    <ClCompile Include="Relic.cpp">
+      <Filter>Script\Source Files\Item\Relic</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Script\Source Files\Item\Equipable\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Script\Source Files\Manager\TextureManager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +181,33 @@
     </ClInclude>
     <ClInclude Include="AttackSkill.h">
       <Filter>Script\Source Files\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Script\Source Files\Manager\Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapeActor.h">
+      <Filter>Script\Source Files\Manager\Actor\ShapeActor</Filter>
+    </ClInclude>
+    <ClInclude Include="TextActor.h">
+      <Filter>Script\Source Files\Manager\Actor\TextActor</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Script\Source Files\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Armor.h">
+      <Filter>Script\Source Files\Item\Equipable\Armor</Filter>
+    </ClInclude>
+    <ClInclude Include="Equipable.h">
+      <Filter>Script\Source Files\Item\Equipable</Filter>
+    </ClInclude>
+    <ClInclude Include="Relic.h">
+      <Filter>Script\Source Files\Item\Relic</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Script\Source Files\Item\Equipable\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Script\Source Files\Manager\TextureManager</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

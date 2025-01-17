@@ -1,4 +1,5 @@
 #include "Logger.h"
+#include "Utilities.h"
 //#include "TimerManager.h"
 
 string VerbosityData::RetrieveFullText(const bool _useColor, const bool _useTime) const
@@ -9,7 +10,7 @@ string VerbosityData::RetrieveFullText(const bool _useColor, const bool _useTime
 
 	if (_useTime)
 	{
-		_fullText = M_TIMER.GetCurrentRealTime() + _fullText;
+		_fullText = GetCurrentRealTime() + _fullText;
 	}
 
 	_fullText += _color + GetPrefix() + " " + _color + text;
