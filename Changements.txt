@@ -18,7 +18,8 @@ Weapon :
 - Le GetAttackValue retourne la valeur d'attaque(equipableStat) multiplié à l'indice de Weight, puis multiplié positivement par la rareté(rarity).
 
 Armor :
-- Le GetResistance retourne la valeur de résistance(equipableStat) additionné à la Weight, puis multiplié positivement par la rareté(rarity * 0.1).
-- La résistance réduisant les dégâts subits, il était impératif que la valeur soit réduite selon la rareté. Ainsi, avec une valeur d'équipement de base de 100,
-une arme de rareté 1 inflige 100 de dégâts, mais une armure de rareté 1 n'en réduit que 10%.
-Ce malus réduit progressivement selon le niveau de rareté, avant de subir un hard cap à 90%.
+- Le GetResistance retourne la valeur de résistance(equipableStat) divisée par deux,  multiplié par la Weight, puis multiplié négativement par la rareté(rarity * 0.1).
+- La résistance réduisant les dégâts subits, il était impératif que la valeur soit réduite selon la rareté. Ainsi, avec une valeur d'équipement de base de 100 et une weight de 1,
+une arme de rareté 1 inflige 100 de dégâts, mais une armure de rareté 1 n'en réduit que 5%.
+Ce malus réduit progressivement selon le niveau de rareté et de weight pour arriver à un maximum de 70% de mitigation.
+Par exemple, une armure de weight 2 et de résistance 100 pourrait bloquer jusqu'à 50 * (2*0.7), soit 70%
