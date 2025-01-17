@@ -13,7 +13,7 @@ public :
 
 	inline int GetResistance() const
 	{
-		return (equipableStat + weight) * (rarity * 0.1);
+		return ((equipableStat / 2) * weight) * (rarity * 0.1);
 	}
 };
 
