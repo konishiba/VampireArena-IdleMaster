@@ -46,6 +46,9 @@
     <Filter Include="Script\Resource Files\Color">
       <UniqueIdentifier>{be445c7a-fa5d-415a-9a40-e5b2a5fa3500}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Script\Source Files\Actor\TextActor">
+      <UniqueIdentifier>{d16c5924-7d08-4ee7-8aa8-6420cb3a99dd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -67,12 +70,15 @@
       <Filter>Script\Resource Files\Singleton</Filter>
     </ClCompile>
     <ClCompile Include="Actor.cpp">
-      <Filter>Script\Source Files</Filter>
+      <Filter>Script\Source Files\Actor</Filter>
     </ClCompile>
     <ClCompile Include="ShapeActor.cpp">
-      <Filter>Script\Source Files</Filter>
+      <Filter>Script\Source Files\Actor\ShapeActor</Filter>
     </ClCompile>
     <ClCompile Include="TextActor.cpp">
+      <Filter>Script\Source Files\Actor\TextActor</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
       <Filter>Script\Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -102,13 +108,16 @@
       <Filter>Script\Resource Files\CoreMinimal</Filter>
     </ClInclude>
     <ClInclude Include="Actor.h">
-      <Filter>Script\Header Files</Filter>
+      <Filter>Script\Source Files\Actor</Filter>
     </ClInclude>
     <ClInclude Include="ShapeActor.h">
-      <Filter>Script\Header Files</Filter>
+      <Filter>Script\Source Files\Actor\TextActor</Filter>
     </ClInclude>
     <ClInclude Include="TextActor.h">
-      <Filter>Script\Header Files</Filter>
+      <Filter>Script\Source Files\Actor\ShapeActor</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Script\Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

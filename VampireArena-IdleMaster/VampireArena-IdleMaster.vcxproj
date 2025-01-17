@@ -146,6 +146,7 @@ xcopy /y /d "..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"</Command>
     <ClCompile Include="ShapeActor.cpp" />
     <ClCompile Include="Singleton.cpp" />
     <ClCompile Include="TextActor.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
     <ClCompile Include="Utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -159,6 +160,7 @@ xcopy /y /d "..\SFML-3.0.0\bin\sfml-window-d-3.dll" "$(OutDir)"</Command>
     <ClInclude Include="ShapeActor.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="TextActor.h" />
+    <ClInclude Include="TextureManager.h" />
     <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,14 +1,15 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
+#include "ShapeActor.h"
+
 using namespace std;
 using namespace sf;
 
 int main()
 {
-	RenderWindow _window(VideoMode({ 200, 200 }), "SFML");
-	CircleShape _shape(100.0f);
-	_shape.setFillColor(Color::Green);
+	RenderWindow _window(VideoMode({ 500, 500 }), "SFML");
+	ShapeActor _shape = ShapeActor(250.0f, "Pierre.png");
 
 	while (_window.isOpen())
 	{
@@ -21,7 +22,7 @@ int main()
 		}
 
 		_window.clear();
-		_window.draw(_shape);
+		_window.draw(*_shape.GetDrawable());
 		_window.display();
 	}
 
